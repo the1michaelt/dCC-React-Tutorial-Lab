@@ -13,6 +13,7 @@ const AddEntryForm = (props) => {
             date: date
         }
         console.log(newEntry);
+        props.addNewEntryProperty(newEntry)//executes the function on line 16 of Apps.js
     }
     
     return (
